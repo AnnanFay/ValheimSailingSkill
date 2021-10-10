@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,8 @@ namespace SailingSkill
 {
     public class SailingConfig
     {
-        public int NEXUS_ID = 922;
+        // ID of original mod
+        // public int NEXUS_ID = 922;
 
         private ConfigVariable<float> skillIncrease;
         private ConfigVariable<int> skillIncreaseTick;
@@ -59,7 +60,7 @@ namespace SailingSkill
 
         public void InitConfig(string id, ConfigFile config)
         {
-            config.Bind<int>("General", "NexusID", NEXUS_ID, "Nexus mod ID for updates");
+            // config.Bind<int>("General", "NexusID", NEXUS_ID, "Nexus mod ID for updates");
 
             var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.GetName().Name == "ModConfigEnforcer");
 

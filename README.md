@@ -1,4 +1,4 @@
-# Sailing Skills
+# Sailing Skill (Fork)
 
 Mod adds *Sailing* Skill to the game.
 
@@ -11,7 +11,7 @@ Affected ship stats (configurable):
 Configurable variables:
 - skillIncrease - amount of exp gained per one sailing tick
 - skillIncreaseTick - amount of boat ticks for one sailing skill increase tick - 50 is roughly equivalent to 1 second
-- halfSailSkillIncreaseMultiplier - amount of skillIncreaseTicks per boat tick when current ship speed is set to half sail 
+- halfSailSkillIncreaseMultiplier - amount of skillIncreaseTicks per boat tick when current ship speed is set to half sail
 - fullSailSkillIncreaseMultiplier - amount of skillIncreaseTicks per boat tick when current ship speed is set to full sail
 - maxTailwindBoost - maximum tailwind speed boost for level 100 sailing skill
 - maxForewindDampener - maximum forewind force dampening for level 100 sailing skill
@@ -24,4 +24,5 @@ Requirements:
 
 Mod should work with [Mod Config Enforcer](https://www.nexusmods.com/valheim/mods/460)
 
-Mod source: [GitHub repo](https://github.com/gaijinx/valheim_mods/tree/main/sailing_skill)
+Fork source: [GitHub repo](https://github.com/AnnanFay/ValheimSailingSkill)
+Original source: [GitHub repo](https://github.com/gaijinx/valheim_mods/tree/main/sailing_skill)
